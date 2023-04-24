@@ -57,6 +57,8 @@ class Funcionario(Base):
     facebook = models.CharField('facebook', max_length=100, default='#')
     twiter = models.CharField('twiter', max_length=100, default='#')
     instagram = models.CharField('instagram', max_length=100, default='#')
+    time = models.CharField('time', max_length=100, default='')
+
 
     class Meta:
         verbose_name = 'Funcionário'
